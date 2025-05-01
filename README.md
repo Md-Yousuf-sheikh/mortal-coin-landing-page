@@ -53,3 +53,4 @@ export default tseslint.config({
 })
 ```
 "# mortal-coin-landing-page" 
+# mortal-coin-landing-page
