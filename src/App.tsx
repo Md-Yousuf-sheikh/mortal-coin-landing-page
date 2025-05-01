@@ -1,12 +1,12 @@
-import './App.css'
-import Header from './components/shared/header'
+import "./App.css";
+import HeroSection from "./components/home/HeroSection";
 
 function App() {
   return (
-    <div className='flex-1 bg' >
-      <Header />
+    <div className="min-h-full w-full">
+      <HeroSection />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

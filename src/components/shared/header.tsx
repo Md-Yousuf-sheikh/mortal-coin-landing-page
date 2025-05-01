@@ -10,40 +10,45 @@ export default function Header() {
     "Tokenomics",
     "Mortal Game",
     "Community",
-    "Connect Wallet",
   ];
 
   return (
-    <header className="w-full px-4 py-3 flex  items-center justify-between bg-white fixed top-0 left-0 z-50">
+    <header className="w-full container-max-width flex items-center justify-between fixed top-3 z-50   ">
       {/* Logo */}
-      <div className="text-xl font-bold text-gray-800">Logo</div>
+      <div>
+        <img src="/img/logo.png" className="nav-logo" />
+      </div>
 
       {/* Desktop Nav */}
-      <nav className="hidden md:flex gap-6 text-gray-700 text-sm font-medium">
+      <nav className="hidden lg:flex gap-6 text-gray-700 text-sm font-medium">
         {navItems.map((item, index) => (
-          <a key={index} href={`#${item.replace(" ", "-").toLowerCase()}`} className="hover:text-blue-600 transition">
+          <button key={index} className="nav-item-button cursor-pointer">
             {item}
-          </a>
+          </button>
         ))}
+        <button className="nav-item-button flex gap-2 items-center cursor-pointer bg-linear-to-r from-[#0339DE] from-60% to-[#5F01B8]">
+          <img src="/svg/wallet-icon.svg" className="h-[15px]" />
+          <p>Connect Wallet</p>
+        </button>
       </nav>
 
       {/* Mobile Menu Button */}
       <button
-        className="md:hidden text-gray-800"
+        className="lg:hidden text-gray-800"
         onClick={() => setMenuOpen(true)}
       >
-        <Menu size={28} />
+        <Menu size={28} color="#ffffff" />
       </button>
 
       {/* Mobile Fullscreen Menu */}
       {menuOpen && (
-        <div className="fixed inset-0 bg-white flex flex-col items-center justify-center z-50">
+        <div className="fixed inset-0 bg-black flex flex-col items-center justify-center z-50">
           {/* Close Button */}
           <button
             className="absolute top-4 right-4 text-gray-800"
             onClick={() => setMenuOpen(false)}
           >
-            <X size={32} />
+            <X size={32} color="#ffffff" />
           </button>
 
           {/* Mobile Nav Items */}
@@ -53,7 +58,7 @@ export default function Header() {
                 key={index}
                 href={`#${item.replace(" ", "-").toLowerCase()}`}
                 onClick={() => setMenuOpen(false)}
-                className="hover:text-blue-600 transition"
+                className="hover:text-blue-600 text-white transition"
               >
                 {item}
               </a>
