@@ -13,7 +13,8 @@ export default function Header() {
   ];
 
   return (
-    <header className="w-full container-max-width flex items-center justify-between fixed top-3 z-50   ">
+    <header className="w-full container-max-width flex items-center justify-between  top-3 z-50">
+      
       {/* Logo */}
       <div>
         <img src="/img/logo.png" className="nav-logo" />

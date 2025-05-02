@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+/* fonts */
+@font-face {
+  font-family: "Rebellion";
+  src: url("/fonts/Rebellion-Squad.ttf");
+}
+@font-face {
+  font-family: "PlaywriteRO";
+  src: url("/fonts/PlaywriteRO-VariableFont_wght.ttf");
+}
+
+@theme {
+  --font-rebellion: Rebellion, "sans-serif";
+  --font-playwriteRO: PlaywriteRO, "sans-serif";
+}
+
+@layer base {
+  /* You can add global styles here if necessary */
+}
+
+.container-max-width {
+  @apply container px-4;
+}
+
+.nav-logo {
+  @apply h-[50px] lg:h-[80px]  xl:h-[110px]  2xl:h-[150px] object-center;
+}
+
+.nav-item-button {
+  @apply font-medium text-xs xl:text-base  2xl:text-xl text-white  rounded-[12px]  px-2 lg:px-3  py-1.5 xl:py-2    2xl:px-4 2xl:py-2 transition-all duration-300 ease-in-out border-2  relative bg-[rgba(255,0,0,0)];
+}
+
+.nav-item-button:hover {
+  @apply shadow-[0px_0px_40px_0px_rgba(138,_43,_226,_0.4)] shadow-red-600 bg-transparent;
+}
+.nav-item-button:hover:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 4px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 40px 0px #d31d1d inset;
+  border-color: #ffffff;
+}
+
+.hero-buttons {
+  @apply font-medium text-xs xl:text-base 2xl:text-xl text-white rounded-[12px] px-2 lg:px-3 py-1.5 xl:py-2 2xl:px-4 2xl:py-2 transition-all duration-300 ease-in-out border-2 relative shadow-[0px_0px_40px_0px_rgba(138,_43,_226,_0.4)] shadow-red-600 bg-transparent;
+}
+
+/* .hero-buttons{
+  color: #ffffff;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 40px 10px #d31d1d ;
+  position: relative;
+  z-index: 1;
+} */
+
+.hero-buttons:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  /* z-index: ; */
+  padding: 4px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 40px 0px #d31d1d inset;
+  border-color: #ffffff;
+  opacity: 0.5;
+
+}
+
+

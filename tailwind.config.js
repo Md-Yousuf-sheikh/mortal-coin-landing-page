@@ -5,7 +5,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}", // Include your source files to scan for classes
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        custom: ["Rebellion", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
