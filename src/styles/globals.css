@@ -3,20 +3,19 @@
 /* fonts */
 @font-face {
   font-family: "Rebellion";
-  src: url("/fonts/Rebellion-Squad.ttf");
-}
-@font-face {
-  font-family: "PlaywriteRO";
-  src: url("/fonts/PlaywriteRO-VariableFont_wght.ttf");
+  src: url("./fonts/Rebellion-Squad.ttf") format("truetype");
 }
 
-@theme {
-  --font-rebellion: Rebellion, "sans-serif";
-  --font-playwriteRO: PlaywriteRO, "sans-serif";
+h1 {
+  font-family: Rebellion;
+  letter-spacing: 10px;
 }
 
-@layer base {
-  /* You can add global styles here if necessary */
+.text-24 {
+  @apply text-[16px]  md:text-[18px] xl:text-[24px];
+}
+.section-title {
+  @apply   text-3xl  lg:text-5xl xl:text-7xl text-white;
 }
 
 .container-max-width {
@@ -24,7 +23,7 @@
 }
 
 .nav-logo {
-  @apply h-[50px] lg:h-[80px]  xl:h-[110px]  2xl:h-[150px] object-center;
+  @apply h-[40px]  md:h-[50px] lg:h-[80px]  xl:h-[110px]  2xl:h-[150px] object-center;
 }
 
 .nav-item-button {
@@ -70,14 +69,11 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  translate: -50% -50%;
-  /* z-index: ; */
+  transform: translate(-50%, -50%);
   padding: 4px;
   border-radius: 12px;
   box-shadow: 0px 0px 40px 0px #d31d1d inset;
-  border-color: #ffffff;
-  opacity: 0.5;
-
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0.4;
+  /* z-index: -3; */
 }
-
-

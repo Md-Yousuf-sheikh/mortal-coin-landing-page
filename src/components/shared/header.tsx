@@ -13,7 +13,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="w-full container-max-width flex items-center justify-between  top-3 z-50">
+    <header className="w-full container-max-width flex items-center justify-between  top-4 z-50  py-2">
       
       {/* Logo */}
       <div>
