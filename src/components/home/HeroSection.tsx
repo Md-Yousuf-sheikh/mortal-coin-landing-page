@@ -15,7 +15,7 @@ export default function HeroSection() {
           />
         </div>
 
-        <div className="px-6 space-y-5 lg:space-y-6 w-full lg:w-[50%]  xl:w-[40%]  ">
+        <div className="px-6 space-y-5 lg:space-y-6 w-full lg:w-[50%]  xl:w-[50%]  ">
           <h1 className="text-2xl md:text-4xl xl:5xl text-white">
             FIGHT. EARN. SURVIVE.
           </h1>
