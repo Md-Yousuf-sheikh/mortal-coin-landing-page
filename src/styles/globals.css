@@ -15,7 +15,7 @@ h1 {
   @apply text-[16px]  md:text-[18px] xl:text-[24px];
 }
 .section-title {
-  @apply   text-3xl  lg:text-5xl xl:text-7xl text-white;
+  @apply text-3xl  lg:text-5xl xl:text-7xl text-white;
 }
 
 .container-max-width {
@@ -53,7 +53,7 @@ h1 {
 }
 
 .timeline-title {
-  @apply font-medium text-3xl lg:text-4xl 2xl:text-4xl bg-gradient-to-l from-[#003BDF] to-50% to-[#6100B7] bg-clip-text text-transparent
+  @apply font-medium text-3xl lg:text-4xl 2xl:text-4xl bg-gradient-to-l from-[#003BDF] to-50% to-[#6100B7] bg-clip-text text-transparent;
 }
 
 /* .hero-buttons{
@@ -82,3 +82,36 @@ h1 {
   /* z-index: -3; */
 }
 
+/* Define the animation for sliding left to right */
+@keyframes slide-left-to-right {
+  0% {
+    transform: translateX(-100%); /* Start from the left */
+  }
+  50% {
+    transform: translateX(0%); /* Move to the center */
+  }
+  100% {
+    transform: translateX(100%); /* End on the right */
+  }
+}
+
+/* Define the animation for sliding right to left */
+@keyframes slide-right-to-left {
+  0% {
+    transform: translateX(100%); /* Start from the right */
+  }
+  50% {
+    transform: translateX(0%); /* Move to the center */
+  }
+  100% {
+    transform: translateX(-100%); /* End on the left */
+  }
+}
+
+/* Apply the sliding effect to the container */
+.slide-container {
+  display: flex;
+  animation: slide-right-to-left 30s ease-in-out infinite,
+    slide-left-to-right 30s ease-in-out infinite;
+  animation-direction: alternate; /* Alternate the direction */
+}

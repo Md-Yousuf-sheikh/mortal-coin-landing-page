@@ -1,4 +1,6 @@
 import AboutSection from "./components/home/AboutSection";
+import FAQSection from "./components/home/FAQSection";
+import FooterSection from "./components/home/FooterSection";
 import HeroSection from "./components/home/HeroSection";
 import JoinTheMortalArmySection from "./components/home/JoinTheMortalArmySection";
 import MortalGameSection from "./components/home/MortalGameSection";
@@ -8,7 +10,7 @@ import WhatIsSection from "./components/home/WhatIsSection";
 
 function App() {
   return (
-    <div className="min-h-full w-full">
+    <div className="min-h-full w-full overflow-hidden">
       <HeroSection />
       <AboutSection />
       <WhatIsSection />
@@ -16,6 +18,8 @@ function App() {
       <MortalGameSection />
       <RoadmapSection />
       <JoinTheMortalArmySection />
+      <FAQSection />
+      <FooterSection />
     </div>
   );
 }

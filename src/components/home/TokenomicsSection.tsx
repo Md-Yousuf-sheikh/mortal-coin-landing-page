@@ -9,7 +9,7 @@ export default function TokenomicsSection() {
   ];
 
   return (
-    <div className=" py-[30px]  lg:py-[50px]   2xl:py-[70px] w-full flex flex-col bg-[url('/img/bg-1.png')] bg-cover bg-center bg-no-repeat bg-blend-overlay mx-auto items-center">
+    <div className=" py-[30px]  lg:py-[50px]   2xl:py-[70px] w-full flex flex-col bg-[url('/img/Back_4.jpg')] bg-cover bg-center bg-no-repeat bg-blend-overlay mx-auto items-center">
       {/* Content */}
       <div className="md:flex container mx-auto justify-center space-y-7">
         {/* Image Section */}

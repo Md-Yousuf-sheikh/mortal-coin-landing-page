@@ -2,11 +2,11 @@ import { ChevronRight } from "lucide-react";
 
 export default function RoadmapSection() {
   return (
-    <div className="bg-[url('/img/bg-1.png')] bg-cover bg-center bg-no-repeat bg-blend-overlay py-16 px-4 sm:px-8">
+    <div className="bg-[url('/img/Back_6.jpg')] bg-cover bg-center bg-no-repeat bg-blend-overlay py-16 px-4 sm:px-8">
       <div className="max-w-6xl mx-auto text-center text-white">
         {/* Title */}
         <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">
-          THE MORTAL GAME
+        Roadmap
         </h1>
         {/* content */}
         <div className=" md:flex pt-14">

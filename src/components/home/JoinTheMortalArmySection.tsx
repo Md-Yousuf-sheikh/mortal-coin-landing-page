@@ -1,6 +1,6 @@
 export default function JoinTheMortalArmySection() {
   return (
-    <div className="py-[70px] w-full flex flex-col bg-[url('/img/bg-2.png')] bg-cover bg-center bg-no-repeat bg-blend-overlay mx-auto items-center bg-[#000000d5]">
+    <div className="py-[70px] w-full flex flex-col bg-[url('/img/Back_5.jpg')] bg-cover bg-center bg-no-repeat bg-blend-overlay mx-auto items-center ">
       {/* content */}
       <div className="container mx-auto ">
         {/* Overlay for text readability */}
