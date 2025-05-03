@@ -6,6 +6,7 @@ export default function JoinTheMortalArmySection() {
         {/* Overlay for text readability */}
         <div className="flex flex-col justify-center items-center px-4 space-y-6">
           <h1
+          data-aos="fade-up"
             className="  text-[50px] md:text-[80px] lg:text-[110px] 2xl:text-[173px] text-white text-center px-4"
             style={{
               WebkitTextStroke: "5px #003BDF",
@@ -17,19 +18,19 @@ export default function JoinTheMortalArmySection() {
 
           {/* social media */}
           <div>
-            <button>
+            <button data-aos="fade-up-right">
               <img
                 src="/svg/twiter-icon.svg"
                 className=" w-[70px] md:w-[90px]  xl:w-[117px]"
               />
             </button>
-            <button>
+            <button data-aos="fade-up">
               <img
                 src="/svg/discoud-icon.svg"
                 className=" w-[70px] md:w-[90px]  xl:w-[117px]"
               />
             </button>
-            <button>
+            <button data-aos="fade-up-left">
               <img
                 src="/svg/telegram-icon.svg"
                 className=" w-[70px] md:w-[90px]  xl:w-[117px]"

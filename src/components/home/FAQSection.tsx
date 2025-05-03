@@ -30,6 +30,7 @@ export default function FAQSection() {
             {FAQ_LIST?.map((qa, index) => {
               return (
                 <div
+                data-aos="fade-up"
                   key={index}
                   className="py-5 bg-[#131417] px-3 rounded-2xl border-0 "
                 >

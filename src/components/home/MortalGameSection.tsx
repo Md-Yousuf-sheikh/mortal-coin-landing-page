@@ -23,7 +23,10 @@ export default function MortalGameSection() {
         {/* Stats */}
         <div className="flex flex-wrap justify-center gap-8 sm:gap-16">
           {/* Current Fighters Online */}
-          <div className="bg-white p-6 rounded-xl shadow-xl flex flex-col items-center relative mt-16 ">
+          <div
+            data-aos="fade-up-right"
+            className="bg-white p-6 rounded-xl shadow-xl flex flex-col items-center relative mt-16 "
+          >
             {/* icon */}
             <img
               src="/svg/game-icon.svg"
@@ -33,7 +36,7 @@ export default function MortalGameSection() {
 
             {/* text */}
             <p className="text-xl font-bold mb-2 text-black">
-              MATCHES PLAYED TODAY
+              Current Fighters Online
             </p>
             <h1 className="text-3xl sm:text-4xl font-extrabold bg-gradient-to-l from-[#6100B7] to-50% to-[#00CCFF] bg-clip-text text-transparent">
               360
@@ -41,7 +44,10 @@ export default function MortalGameSection() {
           </div>
 
           {/* Matches Played Today */}
-          <div className="bg-white p-6 rounded-xl shadow-xl flex flex-col items-center relative mt-16 ">
+          <div
+            data-aos="fade-up-left"
+            className="bg-white p-6 rounded-xl shadow-xl flex flex-col items-center relative mt-16 "
+          >
             {/* icon */}
             <img
               src="/svg/game-icon.svg"
@@ -54,7 +60,7 @@ export default function MortalGameSection() {
               MATCHES PLAYED TODAY
             </p>
             <h1 className="text-3xl sm:text-4xl font-extrabold bg-gradient-to-l from-[#6100B7] to-50% to-[#00CCFF] bg-clip-text text-transparent">
-              360
+              120
             </h1>
           </div>
         </div>

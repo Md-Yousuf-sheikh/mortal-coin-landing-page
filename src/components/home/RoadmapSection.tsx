@@ -10,7 +10,7 @@ export default function RoadmapSection() {
           {/* content */}
           <div className=" md:flex pt-14">
             {/* Overlay for text readability */}
-            <div className="flex justify-center w-full lg:w-[45%] xl:w-[50%]">
+            <div data-aos="fade-up-right"  className="flex justify-center w-full lg:w-[45%] xl:w-[50%]">
               <img
                 src="/img/coin-logo.png"
                 className=" h-[300px] lg:h-[80%] object-contain "
@@ -18,9 +18,9 @@ export default function RoadmapSection() {
             </div>
             {/* time line */}
             <div className="">
-              <ol>
+              <ol data-aos="fade-up">
                 {/* section line */}
-                <li className="border-l-2 border-white  mt-3 ">
+                <li  className="border-l-2 border-white  mt-3 ">
                   <div className="md:flex flex-start">
                     {/* line and icon */}
                     <div className="bg-white w-6 h-6 flex items-center justify-center rounded-full -ml-3.5 ">

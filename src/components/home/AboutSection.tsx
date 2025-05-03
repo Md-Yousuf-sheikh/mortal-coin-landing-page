@@ -20,7 +20,8 @@ export default function AboutSection() {
             {/* phone */}
             <img
               src="/img/phone-with-game.png"
-              className=" md:h-[50vh] object-center mt-10"
+              data-aos="zoom-in-up"
+              className="md:h-[50vh] object-center mt-10"
             />
           </div>
         </div>

@@ -29,7 +29,7 @@ export default function WhatIsSection() {
           </p>
 
           {/* Box */}
-          <div className=" mt-5 md:flex overflow-hidden  bg-gradient-to-br  from-[#FFFFFF] from-2% to-90%  to-[#DE88F4] rounded-4xl ">
+          <div data-aos="zoom-in-up" className=" mt-5 md:flex overflow-hidden  bg-gradient-to-br  from-[#FFFFFF] from-2% to-90%  to-[#DE88F4] rounded-4xl ">
             {/* left */}
             <div className="space-y-4  flex flex-col justify-center px-6 py-2  pt-8 md:pt-0 ">
               {LIST?.map((p, index) => {
@@ -42,7 +42,7 @@ export default function WhatIsSection() {
               })}
             </div>
             {/* right */}
-            <div className="md:pt-4 flex justify-end ">
+            <div   className="md:pt-4 flex justify-end ">
               <img src={"/img/coin-h.png"} className="h-[30vh] " />
             </div>
           </div>
