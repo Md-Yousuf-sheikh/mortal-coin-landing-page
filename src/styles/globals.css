@@ -23,7 +23,7 @@ h1 {
 }
 
 .nav-logo {
-  @apply h-[40px]  md:h-[50px] lg:h-[80px]  xl:h-[110px]  2xl:h-[150px] object-center;
+  @apply h-[40px]  md:h-[50px] lg:h-[70px]  xl:h-[100px]  2xl:h-[100px] object-center;
 }
 
 .nav-item-button {
@@ -57,6 +57,12 @@ h1 {
 }
 .section-padding{
   @apply py-[10vh]  lg:py-[14vh] xl:py-[16vh]  2xl:py-[16vh] 
+}
+.bg-shadow-blinder-t {
+  @apply bg-gradient-to-t from-[#003bdf00] from-5% to-[#00000076] 
+}
+.bg-shadow-blinder-y {
+  @apply bg-gradient-to-b from-[#00000077]  from-5% to-5% to-[#000000ab] 
 }
 
 /* .hero-buttons{

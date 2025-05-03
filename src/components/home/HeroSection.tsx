@@ -2,11 +2,11 @@ import Header from "../shared/header";
 
 export default function HeroSection() {
   return (
-    <div className=" pb-10 w-full flex flex-col bg-[url('/img/Back_1.jpg')] bg-cover bg-center bg-no-repeat bg-blend-overlay mx-auto items-center bg-[rgba(0,0,0,0.42)]">
+    <div className="w-full flex flex-col bg-[url('/img/Back_1.jpg')] bg-cover bg-center bg-no-repeat bg-blend-overlay mx-auto items-center bg-[rgba(0,0,0,0.42)]">
       <Header />
 
       {/* content */}
-      <div className="lg:flex container mx-auto">
+      <div className="lg:flex container mx-auto  pt-5  lg:pt-10">
         {/* Overlay for text readability */}
         <div className="flex justify-center w-full lg:w-[45%] xl:w-[50%]">
           <img
