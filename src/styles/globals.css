@@ -65,6 +65,13 @@ h1 {
   @apply bg-gradient-to-b from-[#00000077]  from-5% to-5% to-[#000000ab];
 }
 
+.company-box {
+  @apply px-4 flex bg-white rounded-2xl w-[230px]  h-[80px]  md:h-[100px]  justify-center items-center  
+}
+.company-box-img {
+  @apply  h-[40px]  md:h-[70px]  
+}
+
 /* .hero-buttons{
   color: #ffffff;
   border: 2px solid white;
@@ -112,9 +119,8 @@ h1 {
 
 /* Default stroke size for larger screens */
 .text-stock-web {
-  -webkit-text-stroke: 8px #003BDF;
+  -webkit-text-stroke: 8px #003bdf;
 }
 .text-stock-web-small {
-  -webkit-text-stroke: 4px #003BDF;
+  -webkit-text-stroke: 4px #003bdf;
 }
-

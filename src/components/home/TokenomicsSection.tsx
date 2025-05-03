@@ -14,7 +14,10 @@ export default function TokenomicsSection() {
         {/* Content */}
         <div className="md:flex container mx-auto justify-center space-y-7">
           {/* Image Section */}
-          <div className="flex justify-center w-full lg:w-[45%]" data-aos="fade-up-right">
+          <div
+            className="flex justify-center w-full lg:w-[45%]"
+            data-aos="fade-up-right"
+          >
             <img
               src="/img/tokenomics-image.png"
               alt="Tokenomics"
@@ -23,7 +26,10 @@ export default function TokenomicsSection() {
           </div>
 
           {/* Tokenomics Info */}
-          <div data-aos="fade-up-left" className="px-6 space-y-5 lg:space-y-6 w-full lg:w-[45%] 2xl:w-[25%]  ">
+          <div
+            data-aos="fade-up-left"
+            className="px-6 space-y-5 lg:space-y-6 w-full lg:w-[45%] 2xl:w-[25%]  "
+          >
             <h1 className="text-2xl md:text-4xl xl:text-5xl font-extrabold text-white text-center">
               Tokenomics
             </h1>
@@ -41,24 +47,19 @@ export default function TokenomicsSection() {
         </div>
 
         {/* Additional Button Section (Optional) */}
-        <div data-aos="fade-up" className="flex justify-center gap-6 mt-7" >
-          <button className="relative px-[15%] md:px-[30%] py-1 md:py-3  text-white rounded-2xl  shadow-[0px_0px_1px_3px] shadow-[#CC00FF] ">
-            <h1 className=" text-[30px] md:text-[50px] lg:text-[60px] xl:text-[70px]">
-              10%
-            </h1>
-            <p className=" text-[16px]   lg:text-[18px]   xl:text-[23px] font-bold">
-              Buy Taks
-            </p>
-          </button>
-          <button className="relative px-[10%] md:px-[30%] py-1 md:py-3  text-white rounded-2xl  shadow-[0px_0px_1px_3px] shadow-[#CC00FF] ">
-            <h1 className=" text-[30px] md:text-[50px] lg:text-[60px] xl:text-[70px]">
-              15%
-            </h1>
-            <p className=" text-[16px]   lg:text-[18px]   xl:text-[23px] font-bold">
-              {" "}
-              Sell Taks
-            </p>
-          </button>
+        <div data-aos="fade-up" className=" space-y-4 md:flex justify-center gap-6 mt-10 ">
+          {/* c1 */}
+          <div className="company-box">
+            <img src="/img/c1.png" className="company-box-img" />
+          </div>
+          {/* c2 */}
+          <div className="company-box">
+            <img src="/img/c2.png" className="company-box-img" />
+          </div>
+          {/* c3 */}
+          <div className="company-box">
+            <img src="/img/c3.png" className="company-box-img" />
+          </div>
         </div>
       </div>
     </div>
