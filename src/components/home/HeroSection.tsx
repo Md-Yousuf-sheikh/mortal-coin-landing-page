@@ -48,7 +48,7 @@ export default function HeroSection() {
             make holders wealthier with every transaction.
           </p>
 
-          <div className="space-y-3 space-x-2  lg:space-y-0 lg:flex gap-6 justify-center relative ">
+          <div className="space-y-5 space-x-2  lg:space-y-0 lg:flex gap-6 justify-center relative ">
             <button data-aos="fade-up-right"  className="hero-buttons w-full md:w-auto">
               <p className="z-10">Join the Battle</p>
             </button>
