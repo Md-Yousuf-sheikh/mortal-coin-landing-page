@@ -3,12 +3,12 @@ export default function MortalGameSection() {
     <div className="section-padding bg-[url('/img/Back_5.jpg')] bg-cover bg-center bg-no-repeat bg-blend-overlay py-16 px-4 sm:px-8">
       <div className="max-w-6xl mx-auto text-center text-white">
         {/* Title */}
-        <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">
+        <h1 data-aos="fade-up" className="text-4xl sm:text-5xl font-extrabold mb-4">
           THE MORTAL GAME
         </h1>
 
         {/* Description */}
-        <p className="text-lg sm:text-xl mb-8">
+        <p data-aos="fade-up" className="text-lg sm:text-xl mb-8">
           The battle never ends. Inside the Mortal Arena, players from around
           the world clash in real-time. Win, earn, and rise through the ranks.
           Every fight brings glory — and real rewards in{" "}
@@ -16,7 +16,7 @@ export default function MortalGameSection() {
         </p>
 
         {/* Question */}
-        <p className="text-2xl sm:text-3xl font-semibold mb-6">
+        <p data-aos="fade-up" className="text-2xl sm:text-3xl font-semibold mb-6">
           Are you worthy of becoming a champion?
         </p>
 

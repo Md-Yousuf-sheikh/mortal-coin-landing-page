@@ -55,14 +55,14 @@ h1 {
 .timeline-title {
   @apply font-medium text-3xl lg:text-4xl 2xl:text-4xl bg-gradient-to-l from-[#003BDF] to-50% to-[#6100B7] bg-clip-text text-transparent;
 }
-.section-padding{
-  @apply py-[10vh]  lg:py-[14vh] xl:py-[16vh]  2xl:py-[16vh] 
+.section-padding {
+  @apply py-[8vh]  lg:py-[10vh] xl:py-[12vh]  2xl:py-[13vh];
 }
 .bg-shadow-blinder-t {
-  @apply bg-gradient-to-t from-[#003bdf00] from-5% to-[#00000076] 
+  @apply bg-gradient-to-t from-[#003bdf00] from-5% to-[#00000076];
 }
 .bg-shadow-blinder-y {
-  @apply bg-gradient-to-b from-[#00000077]  from-5% to-5% to-[#000000ab] 
+  @apply bg-gradient-to-b from-[#00000077]  from-5% to-5% to-[#000000ab];
 }
 
 /* .hero-buttons{
@@ -92,37 +92,29 @@ h1 {
 }
 
 /* Define the animation for sliding left to right */
+/* Define the animation for sliding left to right */
 @keyframes slide-left-to-right {
   0% {
-    transform: translateX(-100%); /* Start from the left */
-  }
-  50% {
-    transform: translateX(0%); /* Move to the center */
-  }
-  100% {
-    transform: translateX(100%); /* End on the right */
-  }
-}
-
-/* Define the animation for sliding right to left */
-@keyframes slide-right-to-left {
-  0% {
-    transform: translateX(100%); /* Start from the right */
-  }
-  50% {
-    transform: translateX(0%); /* Move to the center */
-  }
-  100% {
-    transform: translateX(-100%); /* End on the left */
+    transform: translateX(calc(-100% - 20));
   }
 }
 
 /* Apply the sliding effect to the container */
 .slide-container {
   display: flex;
-  animation: slide-right-to-left 30s ease-in-out infinite,
-    slide-left-to-right 30s ease-in-out infinite;
-  animation-direction: alternate; /* Alternate the direction */
+  animation: slide-left-to-right 10s linear infinite;
 }
 
+.slide-container img {
+  width: 130px; /* or adjust based on your layout */
+  flex-shrink: 0; /* Prevent the images from shrinking */
+}
+
+/* Default stroke size for larger screens */
+.text-stock-web {
+  -webkit-text-stroke: 8px #003BDF;
+}
+.text-stock-web-small {
+  -webkit-text-stroke: 4px #003BDF;
+}
 

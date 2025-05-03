@@ -27,7 +27,7 @@ export default function RoadmapSection() {
                       <ChevronRight color="black" size={15} />
                     </div>
                     {/* box info */}
-                    <div className="block  p-3 lg:p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-5  lg:ml-6  mb-10 -mt-10 text-left">
+                    <div className="block  p-3 lg:p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-5  lg:ml-6  md:mb-10 -mt-10 text-left">
                       <div className="justify-between  w-full ">
                         <p className="font-normal text-gray-400  text-lg  md:text-xl lg:text-2xl uppercase">
                           Phase 1
@@ -56,7 +56,7 @@ export default function RoadmapSection() {
                       <ChevronRight color="black" size={15} />
                     </div>
                     {/* box info */}
-                    <div className="block  p-3 lg:p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-5  lg:ml-6  mb-10  text-left">
+                    <div className="block  p-3 lg:p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-5  lg:ml-6  md:mb-10  text-left">
                       <div className="justify-between  w-full ">
                         <p className="font-normal text-gray-400  text-lg  md:text-xl lg:text-2xl uppercase">
                           Phase 2
@@ -82,7 +82,7 @@ export default function RoadmapSection() {
                       <ChevronRight color="black" size={15} />
                     </div>
                     {/* box info */}
-                    <div className="block  p-3 lg:p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-5  lg:ml-6  mb-10  text-left">
+                    <div className="block  p-3 lg:p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-5  lg:ml-6  md:mb-10  text-left">
                       <div className="justify-between  w-full ">
                         <p className="font-normal text-gray-400  text-lg  md:text-xl lg:text-2xl uppercase">
                           Phase 3

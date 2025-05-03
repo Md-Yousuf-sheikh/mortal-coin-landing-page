@@ -17,10 +17,10 @@ export default function HeroSection() {
         </div>
 
         <div className="px-6 space-y-5 lg:space-y-6 w-full lg:w-[50%]  xl:w-[50%]  ">
-          <h1 data-aos="fade-up"  className="text-2xl md:text-4xl xl:5xl text-white">
+          <h1 data-aos="fade-left"  className="text-2xl md:text-4xl xl:5xl text-white">
             FIGHT. EARN. SURVIVE.
           </h1>
-          <p data-aos="fade-up" className=" text-sm md:text-lg  xl:text-xl text-white">
+          <p data-aos="fade-left" className=" text-sm md:text-lg  xl:text-xl text-white">
             Enter the ultimate battleground where strength is the only currency.
             Connect your wallet, join the fight, and claim your place among the
             champions.
@@ -43,7 +43,7 @@ export default function HeroSection() {
             />
           </div>
 
-          <p data-aos="fade-up" className=" py-4 rounded-2xl text-base md:text-xl  lg:text-2xl  xl:text-3xl text-white font-bold text-center bg-[#000000]">
+          <p data-aos="fade-up" className=" p-[10px] md:p-[15px] lg:p-[20px] rounded-2xl text-base md:text-xl  lg:text-2xl  xl:text-3xl text-white font-bold text-center bg-[#000000]   ">
             The first decentralized Mortal Coin $MORTAL on Solana, designed to
             make holders wealthier with every transaction.
           </p>

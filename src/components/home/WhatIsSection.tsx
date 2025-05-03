@@ -20,8 +20,8 @@ export default function WhatIsSection() {
       <div className="container mx-auto ">
         {/* Overlay for text readability */}
         <div className="flex flex-col justify-center items-center px-4 space-y-6">
-          <h1 className="section-title text-center">What is Mortal Coin?</h1>
-          <p className=" text-sm md:text-lg  xl:text-xl text-white font-semibold md:w-[50%] text-center ">
+          <h1 data-aos="fade-up" className="section-title text-center">What is Mortal Coin?</h1>
+          <p data-aos="fade-up" className=" text-sm md:text-lg  xl:text-xl text-white font-semibold md:w-[50%] text-center ">
             A group of hunters travel to a mysterious island to track down a
             legendary forest creature. They soon realize their guide has set
             them up as bait, forcing them to confront a highly intelligent

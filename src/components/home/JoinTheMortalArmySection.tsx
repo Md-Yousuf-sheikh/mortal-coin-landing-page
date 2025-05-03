@@ -5,13 +5,17 @@ export default function JoinTheMortalArmySection() {
       <div className="container mx-auto ">
         {/* Overlay for text readability */}
         <div className="flex flex-col justify-center items-center px-4 space-y-6">
+          {/* title */}
           <h1
-          data-aos="fade-up"
-            className="  text-[50px] md:text-[80px] lg:text-[110px] 2xl:text-[173px] text-white text-center px-4"
-            style={{
-              WebkitTextStroke: "5px #003BDF",
-              color: "#ffffffff",
-            }}
+            data-aos="fade-up"
+            className=" hidden md:flex text-stock-web text-[50px] md:text-[80px] lg:text-[110px] 2xl:text-[173px] text-white text-center px-4 stroke-orange-300 stroke-2 text-stroke-3 "
+          >
+            Join the Mortal Army
+          </h1>
+          {/* title */}
+          <h1
+            data-aos="fade-up"
+            className="  flex md:hidden  text-stock-web-small text-[50px] md:text-[80px] lg:text-[110px] 2xl:text-[173px] text-white text-center px-4 stroke-orange-300 stroke-2 text-stroke-3 "
           >
             Join the Mortal Army
           </h1>

@@ -3,6 +3,7 @@ import FAQSection from "./components/home/FAQSection";
 import FooterSection from "./components/home/FooterSection";
 import HeroSection from "./components/home/HeroSection";
 import JoinTheMortalArmySection from "./components/home/JoinTheMortalArmySection";
+import MarqueeLine from "./components/home/MarqueeLine";
 import MortalGameSection from "./components/home/MortalGameSection";
 import RoadmapSection from "./components/home/RoadmapSection";
 import TokenomicsSection from "./components/home/TokenomicsSection";
@@ -21,26 +22,7 @@ function App() {
         <RoadmapSection />
         <JoinTheMortalArmySection />
         <FAQSection />
-        <div className=" w-full bg-[#202020]">
-          <div className="slide-container space-x-3.5 py-2 ">
-            <img
-              src="/img/mortal-coin-text-1.png"
-              className="w-[130px] lg:w-[200px]"
-            />
-            <img
-              src="/img/mortal-coin-text-2.png"
-              className="w-[130px] lg:w-[200px]"
-            />
-            <img
-              src="/img/mortal-coin-text-1.png"
-              className="w-[130px] lg:w-[200px]"
-            />
-            <img
-              src="/img/mortal-coin-text-2.png"
-              className="w-[130px] lg:w-[200px]"
-            />
-          </div>
-        </div>
+        <MarqueeLine />
         <FooterSection />
       </div>
     </AOSProvider>

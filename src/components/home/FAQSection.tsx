@@ -19,7 +19,7 @@ export default function FAQSection() {
   ];
 
   return (
-    <div className="section-padding w-full flex flex-col bg-[url('/img/Back_8.jpg')] bg-cover bg-center bg-no-repeat bg-blend-overlay mx-auto items-center ">
+    <div className="section-padding  w-full flex flex-col bg-[url('/img/Back_8.jpg')] bg-cover bg-center bg-no-repeat bg-blend-overlay mx-auto items-center ">
       {/* content */}
       <div className="container mx-auto">
         {/* Overlay for text readability */}
@@ -32,7 +32,7 @@ export default function FAQSection() {
                 <div
                 data-aos="fade-up"
                   key={index}
-                  className="py-5 bg-[#131417] px-3 rounded-2xl border-0 "
+                  className="py-5 bg-[#131417] px-3 md:px-5 rounded-2xl border-0 "
                 >
                   <details className="group ">
                     <summary className="flex justify-between items-center font-medium cursor-pointer list-none  ">
