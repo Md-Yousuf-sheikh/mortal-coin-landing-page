@@ -3,7 +3,7 @@
     import 'aos/dist/aos.css';
     import { useEffect } from 'react';
 
-    const AOSProvider = ({ children }) => {
+    const AOSProvider = ({ children }:any) => {
       useEffect(() => {
         AOS.init();
       }, []);
