@@ -19,6 +19,26 @@ function App() {
       <RoadmapSection />
       <JoinTheMortalArmySection />
       <FAQSection />
+      <div className=" w-full bg-[#202020]">
+        <div className="slide-container space-x-3.5 py-2 ">
+          <img
+            src="/img/mortal-coin-text-1.png"
+            className="w-[130px] lg:w-[200px]"
+          />
+          <img
+            src="/img/mortal-coin-text-2.png"
+            className="w-[130px] lg:w-[200px]"
+          />
+          <img
+            src="/img/mortal-coin-text-1.png"
+            className="w-[130px] lg:w-[200px]"
+          />
+          <img
+            src="/img/mortal-coin-text-2.png"
+            className="w-[130px] lg:w-[200px]"
+          />
+        </div>
+      </div>
       <FooterSection />
     </div>
   );

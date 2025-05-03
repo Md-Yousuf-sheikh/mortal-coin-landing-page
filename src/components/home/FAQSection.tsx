@@ -19,13 +19,13 @@ export default function FAQSection() {
   ];
 
   return (
-    <div className="pt-[70px] w-full flex flex-col bg-[url('/img/Back_8.jpg')] bg-cover bg-center bg-no-repeat bg-blend-overlay mx-auto items-center ">
+    <div className="section-padding w-full flex flex-col bg-[url('/img/Back_8.jpg')] bg-cover bg-center bg-no-repeat bg-blend-overlay mx-auto items-center ">
       {/* content */}
       <div className="container mx-auto">
         {/* Overlay for text readability */}
         <div className="flex flex-col justify-center items-center px-4 space-y-6">
           <h1 className="section-title text-center">FAQ</h1>
-          <div className="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8 text-white space-y-2  md:w-[683px]">
+          <div className="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8 text-white space-y-4  md:w-[683px]">
             {/* list */}
             {FAQ_LIST?.map((qa, index) => {
               return (
@@ -52,7 +52,7 @@ export default function FAQSection() {
                         </svg>
                       </span>
                     </summary>
-                    <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                    <p className="text-neutral-200 mt-3 group-open:animate-fadeIn">
                       We offers a variety of billing options, including monthly
                       and annual subscription plans, as well as pay-as-you-go
                       pricing for certain services. Payment is typically made
@@ -68,24 +68,7 @@ export default function FAQSection() {
       </div>
       {/*  */}
       {/* Left-right sliding images */}
-      <div className="slide-container space-x-3.5 pt-[40px]  md:pt-[70px]  ">
-        <img
-          src="/img/mortal-coin-text-1.png"
-          className="w-[130px] lg:w-[200px]"
-        />
-        <img
-          src="/img/mortal-coin-text-2.png"
-          className="w-[130px] lg:w-[200px]"
-        />
-        <img
-          src="/img/mortal-coin-text-1.png"
-          className="w-[130px] lg:w-[200px]"
-        />
-        <img
-          src="/img/mortal-coin-text-2.png"
-          className="w-[130px] lg:w-[200px]"
-        />
-      </div>
+     
     </div>
   );
 }

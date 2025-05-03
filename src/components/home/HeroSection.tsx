@@ -42,7 +42,7 @@ export default function HeroSection() {
             />
           </div>
 
-          <p className=" mt-5  xl:mt-10 text-base md:text-xl  lg:text-2xl  xl:text-3xl text-white font-bold text-center">
+          <p className=" py-4 rounded-2xl text-base md:text-xl  lg:text-2xl  xl:text-3xl text-white font-bold text-center bg-[#000000]">
             The first decentralized Mortal Coin $MORTAL on Solana, designed to
             make holders wealthier with every transaction.
           </p>

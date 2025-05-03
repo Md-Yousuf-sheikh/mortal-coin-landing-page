@@ -55,6 +55,9 @@ h1 {
 .timeline-title {
   @apply font-medium text-3xl lg:text-4xl 2xl:text-4xl bg-gradient-to-l from-[#003BDF] to-50% to-[#6100B7] bg-clip-text text-transparent;
 }
+.section-padding{
+  @apply py-[10vh]  lg:py-[14vh] xl:py-[16vh]  2xl:py-[16vh] 
+}
 
 /* .hero-buttons{
   color: #ffffff;
@@ -115,3 +118,5 @@ h1 {
     slide-left-to-right 30s ease-in-out infinite;
   animation-direction: alternate; /* Alternate the direction */
 }
+
+

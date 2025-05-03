@@ -15,7 +15,7 @@ export default function WhatIsSection() {
   ];
 
   return (
-    <div className="py-[70px] -mt-10 w-full flex flex-col bg-[url('/img/Back_3.jpg')] bg-cover bg-center bg-no-repeat bg-blend-overlay mx-auto items-center ">
+    <div className="section-padding -mt-10 w-full flex flex-col bg-[url('/img/Back_3.jpg')] bg-cover bg-center bg-no-repeat bg-blend-overlay mx-auto items-center ">
       {/* content */}
       <div className="container mx-auto ">
         {/* Overlay for text readability */}
