@@ -29,10 +29,10 @@ export default function RoadmapSection() {
                     {/* box info */}
                     <div className="block  p-3 lg:p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-5  lg:ml-6  md:mb-10 -mt-10 text-left">
                       <div className="justify-between  w-full ">
-                        <p className="font-normal text-gray-400  text-lg  md:text-xl lg:text-2xl uppercase">
+                        <p className="font-normal text-gray-400  text-sm  md:text-xl lg:text-2xl uppercase">
                           Phase 1
                         </p>
-                        <h1 className="font-medium  text-3xl  lg:text-4xl     2xl:text-5xl bg-gradient-to-l from-[#003BDF] to-50% to-[#6100B7] bg-clip-text text-transparent">
+                        <h1 className="timeline-title">
                           Launch
                         </h1>
                       </div>
@@ -58,7 +58,7 @@ export default function RoadmapSection() {
                     {/* box info */}
                     <div className="block  p-3 lg:p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-5  lg:ml-6  md:mb-10  text-left">
                       <div className="justify-between  w-full ">
-                        <p className="font-normal text-gray-400  text-lg  md:text-xl lg:text-2xl uppercase">
+                        <p className="font-normal text-gray-400  text-sm  md:text-xl lg:text-2xl uppercase">
                           Phase 2
                         </p>
                         <h1 className="timeline-title">Community Expansion</h1>
@@ -84,7 +84,7 @@ export default function RoadmapSection() {
                     {/* box info */}
                     <div className="block  p-3 lg:p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-5  lg:ml-6  md:mb-10  text-left">
                       <div className="justify-between  w-full ">
-                        <p className="font-normal text-gray-400  text-lg  md:text-xl lg:text-2xl uppercase">
+                        <p className="font-normal text-gray-400   text-base  md:text-xl lg:text-2xl uppercase">
                           Phase 3
                         </p>
                         <h1 className="timeline-title">Mortal Coin Staking</h1>
@@ -110,7 +110,7 @@ export default function RoadmapSection() {
                     {/* box info */}
                     <div className="block  p-3 lg:p-6 rounded-lg shadow-lg bg-gray-100 max-w-md ml-5  lg:ml-6    text-left">
                       <div className="justify-between  w-full ">
-                        <p className="font-normal text-gray-400  text-lg  md:text-xl lg:text-2xl uppercase">
+                        <p className="font-normal text-gray-400  text-base  md:text-xl lg:text-2xl uppercase">
                           Phase 1
                         </p>
                         <h1 className="timeline-title">Beta Game Launch</h1>

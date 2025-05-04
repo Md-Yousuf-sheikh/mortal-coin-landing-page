@@ -1,19 +1,19 @@
 export default function FAQSection() {
   const FAQ_LIST = [
     {
-      title: "1. What is ScroogeBank ($MORTAL)?",
+      title: "1. What is Mortal Coin ($MORTAL)?",
       ans: "Every buy and sell transaction has a 5% fee, which works as follows: The tokens from the fee are swapped for Solana and distributed to holders. The tokens used in the swap are burned forever, reducing supply and increasing $MORTAL value over time.",
     },
     {
-      title: "2. How does the 5% fee work?",
+      title: "2. How do I play the Mortal Game?",
       ans: "Every buy and sell transaction has a 5% fee, which works as follows: The tokens from the fee are swapped for Solana and distributed to holders. The tokens used in the swap are burned forever, reducing supply and increasing $MORTAL value over time.",
     },
     {
-      title: "3. How to buy $MORTAL in the Pinksale Fairlaunch?",
+      title: "3. How do I earn $MORTAL tokens?",
       ans: "Every buy and sell transaction has a 5% fee, which works as follows: The tokens from the fee are swapped for Solana and distributed to holders. The tokens used in the swap are burned forever, reducing supply and increasing $MORTAL value over time.",
     },
     {
-      title: "4. What is the Duckburg Staking Vault?",
+      title: "4.Which wallets are supported?",
       ans: "Every buy and sell transaction has a 5% fee, which works as follows: The tokens from the fee are swapped for Solana and distributed to holders. The tokens used in the swap are burned forever, reducing supply and increasing $MORTAL value over time.",
     },
   ];

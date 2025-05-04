@@ -49,7 +49,7 @@ export default function HeroSection() {
           </p>
 
           <div className="space-y-5 space-x-2  lg:space-y-0 lg:flex gap-6 justify-center relative ">
-            <button data-aos="fade-up-right"  className="hero-buttons w-full md:w-auto">
+            <button  data-aos="fade-up-right"  className="hero-buttons w-full md:w-auto">
               <p className="z-10">Join the Battle</p>
             </button>
             <button data-aos="fade-up" className="hero-buttons w-full md:w-auto">

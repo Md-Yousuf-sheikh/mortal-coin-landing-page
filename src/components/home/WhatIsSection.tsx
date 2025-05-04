@@ -20,16 +20,25 @@ export default function WhatIsSection() {
       <div className="container mx-auto ">
         {/* Overlay for text readability */}
         <div className="flex flex-col justify-center items-center px-4 space-y-6">
-          <h1 data-aos="fade-up" className="section-title text-center">What is Mortal Coin?</h1>
-          <p data-aos="fade-up" className=" text-sm md:text-lg  xl:text-xl text-white font-semibold md:w-[50%] text-center ">
-            A group of hunters travel to a mysterious island to track down a
-            legendary forest creature. They soon realize their guide has set
-            them up as bait, forcing them to confront a highly intelligent
-            predator that terrorizes them one by one.
+          <h1 data-aos="fade-up" className="section-title text-center">
+            What is Mortal Coin?
+          </h1>
+          <p
+            data-aos="fade-up"
+            className=" text-sm md:text-lg  xl:text-xl text-white font-semibold md:w-[50%] text-center "
+          >
+            Mortal Coin is a Web3 fighting project built on Solana — where meme
+            culture meets deadly competition. Players connect their wallets,
+            fight in real-time PvP battles, and earn $MORTAL tokens by winning.
+            More than just a token, Mortal Coin is a gamified battleground where
+            holders become warriors and the strongest rise through the ranks.
           </p>
 
           {/* Box */}
-          <div data-aos="zoom-in-up" className=" mt-5 md:flex overflow-hidden  bg-gradient-to-br  from-[#FFFFFF] from-2% to-90%  to-[#DE88F4] rounded-4xl ">
+          <div
+            data-aos="zoom-in-up"
+            className=" mt-5 md:flex overflow-hidden  bg-gradient-to-br  from-[#FFFFFF] from-2% to-90%  to-[#DE88F4] rounded-4xl "
+          >
             {/* left */}
             <div className="space-y-4  flex flex-col justify-center px-6 py-2  pt-8 md:pt-0 ">
               {LIST?.map((p, index) => {
@@ -42,7 +51,7 @@ export default function WhatIsSection() {
               })}
             </div>
             {/* right */}
-            <div   className="md:pt-4 flex justify-end ">
+            <div className="md:pt-4 flex justify-end ">
               <img src={"/img/coin-h.png"} className="h-[30vh] " />
             </div>
           </div>

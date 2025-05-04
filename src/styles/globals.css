@@ -15,7 +15,7 @@ h1 {
   @apply text-[16px]  md:text-[18px] xl:text-[24px];
 }
 .section-title {
-  @apply text-3xl  lg:text-5xl xl:text-7xl text-white;
+  @apply text-2xl  lg:text-5xl xl:text-7xl text-white;
 }
 
 .container-max-width {
@@ -53,7 +53,7 @@ h1 {
 }
 
 .timeline-title {
-  @apply font-medium text-3xl lg:text-4xl 2xl:text-4xl bg-gradient-to-l from-[#003BDF] to-50% to-[#6100B7] bg-clip-text text-transparent;
+  @apply font-medium text-xl lg:text-4xl 2xl:text-4xl bg-gradient-to-l from-[#003BDF] to-50% to-[#6100B7] bg-clip-text text-transparent;
 }
 .section-padding {
   @apply py-[8vh]  lg:py-[10vh] xl:py-[12vh]  2xl:py-[13vh];

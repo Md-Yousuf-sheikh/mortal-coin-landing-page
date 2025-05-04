@@ -1,11 +1,8 @@
 export default function TokenomicsSection() {
   const list = [
-    { title: "20% Liquidity" },
-    { title: "12% Marketing" },
-    { title: "10% Development" },
-    { title: "30% Dex" },
-    { title: "5% Team" },
-    { title: "45% Presale" },
+    { title: "10% Tax" },
+    { title: "5% Holders" },
+    { title: "5% Marketing" },
   ];
 
   return (
@@ -47,7 +44,10 @@ export default function TokenomicsSection() {
         </div>
 
         {/* Additional Button Section (Optional) */}
-        <div data-aos="fade-up" className=" space-y-4 md:flex justify-center gap-6 mt-10 ">
+        <div
+          data-aos="fade-up"
+          className=" space-y-4 md:flex justify-center gap-6 mt-10 "
+        >
           {/* c1 */}
           <div className="company-box">
             <img src="/img/c1.png" className="company-box-img" />
@@ -57,7 +57,12 @@ export default function TokenomicsSection() {
             <img src="/img/c2.png" className="company-box-img" />
           </div>
           {/* c3 */}
-          <div className="company-box">
+          <div
+            className=" company-box "
+            style={{
+              backgroundColor: "rgba(31, 31, 31, 1)",
+            }}
+          >
             <img src="/img/c3.png" className="company-box-img" />
           </div>
         </div>
