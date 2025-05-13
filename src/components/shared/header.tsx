@@ -22,11 +22,16 @@ export default function Header() {
       {/* Desktop Nav */}
       <nav className="hidden lg:flex gap-6 text-gray-700 text-sm font-medium">
         {navItems.map((item, index) => (
-          <button key={index} className="nav-item-button cursor-pointer">
+          <button
+            key={index}
+            className={`${
+              index == 0 && "bg-[#cd5f00ff] border-[#cd5f00ff]"
+            } nav-item-button cursor-pointer`}
+          >
             {item}
           </button>
         ))}
-        <button className="nav-item-button flex gap-2 items-center cursor-pointer bg-linear-to-r from-[#0339DE] from-60% to-[#5F01B8]">
+        <button className="border-[#e03c17ff] bg-[#e03c17ff] nav-item-button flex gap-2 items-center cursor-pointer">
           <img src="/svg/wallet-icon.svg" className="h-[15px]" />
           <p>Connect Wallet</p>
         </button>

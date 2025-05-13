@@ -2,13 +2,17 @@
 
 /* fonts */
 @font-face {
-  font-family: "Rebellion";
-  src: url("./fonts/Rebellion-Squad.ttf") format("truetype");
+  font-family: "NSPhilapost";
+  src: url("./fonts/NSPhilapostCapitalRegular.ttf") format("truetype");
 }
+/* @font-face {
+  font-family: "NSPhilapost";
+  src: url("./fonts/NSPhilapost-Squad.ttf") format("truetype");
+} */
 
 h1 {
-  font-family: Rebellion;
-  letter-spacing: 10px;
+  font-family: NSPhilapost;
+  color: rgba(205, 95, 0, 1);
 }
 
 .text-24 {
@@ -27,7 +31,7 @@ h1 {
 }
 
 .nav-item-button {
-  @apply font-medium text-xs xl:text-base  2xl:text-xl text-white  rounded-[12px]  px-2 lg:px-3  py-1.5 xl:py-2    2xl:px-4 2xl:py-2 transition-all duration-300 ease-in-out border-2  relative bg-[rgba(255,0,0,0)];
+  @apply font-medium text-xs xl:text-base  2xl:text-xl text-white  rounded-[12px]  px-2 lg:px-3  py-1.5 xl:py-2    2xl:px-4 2xl:py-2 transition-all duration-300 ease-in-out border-2  relative ;
 }
 
 .nav-item-button:hover {
@@ -49,7 +53,7 @@ h1 {
 }
 
 .hero-buttons {
-  @apply font-medium text-xs xl:text-base 2xl:text-xl text-white rounded-[12px] px-2 lg:px-3 py-1.5 xl:py-2 2xl:px-4 2xl:py-2 transition-all duration-300 ease-in-out border-2 relative  shadow-[0px_0px_10px_3px_rgba(138,_43,_226,_0.4)] md:shadow-[0px_0px_40px_0px_rgba(138,_43,_226,_0.4)] shadow-red-600 bg-transparent;
+  @apply font-medium text-xs xl:text-base 2xl:text-xl text-white rounded-[12px] px-2 lg:px-4 py-1.5 xl:py-3 2xl:px-6 2xl:py-3   ;
 }
 
 .timeline-title {
@@ -81,22 +85,6 @@ h1 {
   position: relative;
   z-index: 1;
 } */
-
-.hero-buttons:after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 4px;
-  border-radius: 12px;
-  box-shadow: 0px 0px 40px 0px #d31d1d inset;
-  transition: opacity 0.3s ease-in-out;
-  opacity: 0.4;
-  /* z-index: -3; */
-}
 
 /* Define the animation for sliding left to right */
 /* Define the animation for sliding left to right */
