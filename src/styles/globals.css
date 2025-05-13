@@ -57,7 +57,7 @@ h1 {
 }
 
 .timeline-title {
-  @apply font-medium text-xl lg:text-4xl 2xl:text-4xl bg-gradient-to-l from-[#003BDF] to-50% to-[#6100B7] bg-clip-text text-transparent;
+  @apply font-medium text-xl lg:text-4xl 2xl:text-4xl  text-[#2975F1] ;
 }
 .section-padding {
   @apply py-[8vh]  lg:py-[10vh] xl:py-[12vh]  2xl:py-[13vh];
