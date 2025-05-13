@@ -19,7 +19,7 @@ export default function FAQSection() {
   ];
 
   return (
-    <div className="section-padding  w-full flex flex-col bg-[url('/img/Back_8.jpg')] bg-cover bg-center bg-no-repeat bg-blend-overlay mx-auto items-center ">
+    <div className="section-padding  w-full flex   items-center bg-[#000000] ">
       {/* content */}
       <div className="container mx-auto">
         {/* Overlay for text readability */}
@@ -29,13 +29,9 @@ export default function FAQSection() {
             {/* list */}
             {FAQ_LIST?.map((qa, index) => {
               return (
-                <div
-                data-aos="fade-up"
-                  key={index}
-                  className="py-5 bg-[#131417] px-3 md:px-5 rounded-2xl border-0 "
-                >
-                  <details className="group ">
-                    <summary className="flex justify-between items-center font-medium cursor-pointer list-none  ">
+                <div data-aos="fade-up" key={index} className=" border-0 ">
+                  <details className="group">
+                    <summary className="flex justify-between items-center font-medium cursor-pointer list-non group-open:bg-[#222428]  py-5 bg-[#121316]     px-3 md:px-5 rounded-2xl   group-open:rounded-bl-none  group-open:rounded-br-none ">
                       <span>{qa?.title}</span>
                       <span className="transition group-open:rotate-180">
                         <svg
@@ -53,7 +49,7 @@ export default function FAQSection() {
                         </svg>
                       </span>
                     </summary>
-                    <p className="text-neutral-200 mt-3 group-open:animate-fadeIn">
+                    <p className=" py-5 bg-[#222428]   px-3 md:px-5 rounded-bl-2xl rounded-br-2xl  text-neutral-200  group-open:animate-fadeIn">
                       We offers a variety of billing options, including monthly
                       and annual subscription plans, as well as pay-as-you-go
                       pricing for certain services. Payment is typically made
@@ -69,7 +65,6 @@ export default function FAQSection() {
       </div>
       {/*  */}
       {/* Left-right sliding images */}
-     
     </div>
   );
 }

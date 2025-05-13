@@ -12,14 +12,14 @@
 
 h1 {
   font-family: NSPhilapost;
-  color: rgba(205, 95, 0, 1);
+  color: #cd5f00;
 }
 
 .text-24 {
   @apply text-[16px]  md:text-[18px] xl:text-[24px];
 }
 .section-title {
-  @apply text-2xl  lg:text-5xl xl:text-7xl text-white;
+  @apply text-2xl  lg:text-5xl xl:text-7xl text-[#cd5f00];
 }
 
 .container-max-width {
