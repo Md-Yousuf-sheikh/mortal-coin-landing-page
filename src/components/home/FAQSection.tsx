@@ -19,7 +19,7 @@ export default function FAQSection() {
   ];
 
   return (
-    <div className="section-padding  w-full flex   items-center bg-[#000000] ">
+    <div className="section-padding  w-full flex   items-center bg-[#000000] -mt-1 ">
       {/* content */}
       <div className="container mx-auto">
         {/* Overlay for text readability */}

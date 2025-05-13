@@ -19,7 +19,7 @@ h1 {
   @apply text-[16px]  md:text-[18px] xl:text-[24px];
 }
 .section-title {
-  @apply text-2xl  lg:text-5xl xl:text-7xl text-[#cd5f00];
+  @apply text-2xl  lg:text-5xl xl:text-7xl 2xl:text-8xl text-[#cd5f00];
 }
 
 .container-max-width {
