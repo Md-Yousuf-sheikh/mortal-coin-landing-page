@@ -1,6 +1,6 @@
 export default function MortalGameSection() {
   return (
-    <div className="section-padding bg-[url('/img/Back_5.png')] bg-cover bg-center bg-no-repeat bg-blend-overlay py-16 px-4 sm:px-8">
+    <div className="section-padding bg-[url('/img/Back_4.png')] bg-cover bg-center bg-no-repeat bg-blend-overlay py-16 px-4 sm:px-8">
       <div className="max-w-6xl mx-auto text-center text-white flex flex-col justify-center items-center">
         {/* Title */}
         <h1 data-aos="fade-up" className="section-title">

@@ -109,34 +109,28 @@ export default function WhatIsSection() {
           </div>
         </div>
         {/* Additional Button Section (Optional) */}
-        <div
+        {/* <div
           data-aos="fade-up"
           className="space-y-4 flex justify-center gap-6 mt-10 "
         >
           <img src="/img/icons.png" className=" w-[90%]  md:w-[50%]   xl:w-[30%]" />
-        </div>
-        {/* <div
+        </div> */}
+        <div
           data-aos="fade-up"
-          className="space-y-4 md:flex justify-center gap-6 mt-10 "
+          className="space-y-5 space-x-2 md:flex justify-center gap-6 mt-10 "
         >
-          
-          <div className="company-box">
+          <div>
             <img src="/img/c1.png" className="company-box-img" />
           </div>
-        
-          <div className="company-box">
+
+          <div>
             <img src="/img/c2.png" className="company-box-img" />
           </div>
-       
-          <div
-            className=" company-box "
-            style={{
-              backgroundColor: "rgba(31, 31, 31, 1)",
-            }}
-          >
+
+          <div>
             <img src="/img/c3.png" className="company-box-img" />
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
