@@ -6,7 +6,6 @@ import JoinTheMortalArmySection from "./components/home/JoinTheMortalArmySection
 import MarqueeLine from "./components/home/MarqueeLine";
 import MortalGameSection from "./components/home/MortalGameSection";
 import RoadmapSection from "./components/home/RoadmapSection";
-import TokenomicsSection from "./components/home/TokenomicsSection";
 import WhatIsSection from "./components/home/WhatIsSection";
 import AOSProvider from "./providers/AOSProvider";
 
