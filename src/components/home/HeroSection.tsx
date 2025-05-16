@@ -21,13 +21,13 @@ export default function HeroSection() {
         <div className="px-6 space-y-5 lg:space-y-6 w-full lg:w-[50%]  xl:w-[50%]  ">
           <h1
             data-aos="fade-left"
-            className="text-3xl md:text-[51px] xl:[61px] text-[rgba(205, 95, 0, 1)] lg:leading-1"
+            className="text-3xl md:text-[51px] xl:[61px] text-[rgba(205, 95, 0, 1)] lg:leading-1 text-center md:text-left"
           >
             FIGHT. EARN. SURVIVE.
           </h1>
           <p
             data-aos="fade-left"
-            className="text-sm md:text-lg  xl:text-xl text-white"
+            className="text-base md:text-lg  xl:text-xl text-white text-center md:text-left"
           >
             Enter the ultimate battleground where strength is the only currency.
             Connect your wallet, join the fight, and claim your place among the
@@ -68,19 +68,19 @@ export default function HeroSection() {
           <div className="space-y-5 space-x-2  lg:space-y-0 lg:flex gap-6 justify-center relative ">
             <button
               data-aos="fade-up-right"
-              className="bg-[#2975f1ff] hero-buttons w-full md:w-auto"
+              className="bg-[#2975f1ff] hover:bg-[#e03c17ff] hero-buttons w-full md:w-auto"
             >
               <p className="z-10">Join the Battle</p>
             </button>
             <button
               data-aos="fade-up"
-              className="bg-[#e03c17ff] hero-buttons w-full md:w-auto"
+              className="bg-[#2975f1ff] hover:bg-[#e03c17ff] hero-buttons w-full md:w-auto"
             >
               Join Tournament
             </button>
             <button
               data-aos="fade-up-left"
-              className="bg-[#2975f1ff] hero-buttons w-full md:w-auto"
+              className="bg-[#2975f1ff] hover:bg-[#e03c17ff] hero-buttons w-full md:w-auto"
             >
               Buy $KAME
             </button>

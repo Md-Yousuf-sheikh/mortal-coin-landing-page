@@ -7,7 +7,7 @@ export default function AboutSection() {
           {/* Overlay for text readability */}
           <div className="flex flex-col justify-center items-center px-4 space-y-6">
             <h1 data-aos="fade-up"  className="section-title text-center">About<br/>Mortal Coin</h1>
-            <p data-aos="fade-up" className=" text-sm md:text-lg  xl:text-xl text-white font-semibold md:w-[50%] text-center ">
+            <p data-aos="fade-up" className=" text-base md:text-lg  xl:text-xl text-white font-semibold md:w-[50%] text-center ">
               Mortal Coin isn’t just a token. It’s a battlefield where memes
               become warriors, and holders become champions.
             </p>

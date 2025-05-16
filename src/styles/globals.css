@@ -19,7 +19,7 @@ h1 {
   @apply text-[16px]  md:text-[18px] xl:text-[24px];
 }
 .section-title {
-  @apply text-2xl  lg:text-5xl xl:text-7xl 2xl:text-8xl text-[#cd5f00];
+  @apply text-3xl  lg:text-5xl xl:text-7xl 2xl:text-8xl text-[#cd5f00];
 }
 
 .container-max-width {
@@ -31,11 +31,12 @@ h1 {
 }
 
 .nav-item-button {
-  @apply font-medium text-xs xl:text-base  2xl:text-xl text-white  rounded-[12px]  px-2 lg:px-3  py-1.5 xl:py-2    2xl:px-4 2xl:py-2 transition-all duration-300 ease-in-out border-2  relative ;
+  @apply font-medium text-xs xl:text-base  2xl:text-xl text-white  rounded-[12px]  px-2 lg:px-3  py-2 xl:py-2    2xl:px-4 2xl:py-2 transition-all duration-300 ease-in-out border-2  relative ;
 }
 
 .nav-item-button:hover {
-  @apply shadow-[0px_0px_40px_0px_rgba(138,_43,_226,_0.4)] shadow-red-600 bg-transparent;
+  @apply border-[#e03c17ff] bg-[#e03c17ff];
+  /* @apply shadow-[0px_0px_40px_0px_rgba(138,_43,_226,_0.4)] shadow-red-600 bg-transparent; */
 }
 .nav-item-button:hover:after {
   content: "";
@@ -53,7 +54,7 @@ h1 {
 }
 
 .hero-buttons {
-  @apply font-medium text-xs xl:text-base 2xl:text-xl text-white rounded-[12px] px-2 lg:px-4 py-1.5 xl:py-3 2xl:px-6 2xl:py-3   ;
+  @apply font-medium text-xs xl:text-base 2xl:text-xl text-white rounded-[12px] px-2 lg:px-4 py-2 xl:py-3 2xl:px-6 2xl:py-3   ;
 }
 
 .timeline-title {

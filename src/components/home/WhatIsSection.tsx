@@ -30,7 +30,7 @@ export default function WhatIsSection() {
           </h1>
           <p
             data-aos="fade-up"
-            className=" text-sm md:text-lg  xl:text-xl text-white font-semibold md:w-[80%] text-center "
+            className=" text-base md:text-lg  xl:text-xl text-white font-semibold md:w-[80%] text-center "
           >
             Mortal Coin is a Web3 fighting project built on Solana — where meme
             culture meets deadly competition. Players connect their wallets,
@@ -92,7 +92,7 @@ export default function WhatIsSection() {
                   key={index}
                   className="text-center flex flex-col justify-center items-center"
                 >
-                  <p className="font-semibold  text-[#C85D00] text-xl  md:text-2xl   lg:text-3xl">
+                  <p className="font-semibold  text-[#C85D00] text-2xl  md:text-2xl   lg:text-3xl">
                     {item.value}
                   </p>
                   <p className="font-semibold  text-[#C85D00]  md:text-xl  lg:text-2xl">
@@ -102,7 +102,7 @@ export default function WhatIsSection() {
               ))}
             </div>
             {/* text */}
-            <p className="text-[#C85D00] lg:w-[40%] text-center text-base  md:text-xl ">
+            <p className="text-[#C85D00] lg:w-[40%] text-center text-lg  md:text-xl ">
               Each battle burns tokens. 80% of the entry fee goes to the winner.
               20% is burned forever.
             </p>
@@ -111,9 +111,9 @@ export default function WhatIsSection() {
         {/* Additional Button Section (Optional) */}
         <div
           data-aos="fade-up"
-          className="space-y-4 md:flex justify-center gap-6 mt-10 "
+          className="space-y-4 flex justify-center gap-6 mt-10 "
         >
-          <img src="/img/icons.png" className="w-[30%]" />
+          <img src="/img/icons.png" className=" w-[90%]  md:w-[50%]   xl:w-[30%]" />
         </div>
         {/* <div
           data-aos="fade-up"

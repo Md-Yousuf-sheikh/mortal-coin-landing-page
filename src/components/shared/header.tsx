@@ -25,7 +25,7 @@ export default function Header() {
           <button
             key={index}
             className={`${
-              index == 0 && "border-[#e03c17ff] bg-[#e03c17ff] "
+              index == 0 && " "
             } nav-item-button cursor-pointer`}
           >
             {item}

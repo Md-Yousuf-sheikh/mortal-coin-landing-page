@@ -41,8 +41,8 @@ const roadmapPhases = [
 
 export default function RoadmapSection() {
   return (
-    <div className="bg-[url('/img/Back_6.jpg')] bg-cover bg-center bg-no-repeat bg-blend-overlay">
-      <div className="section-padding bg-shadow-blinder-y px-4 sm:px-8">
+    <div className="bg-[url('/img/Back_6.jpg')]  bg-cover bg-center bg-no-repeat bg-blend-overlay  ">
+      <div className="section-padding px-4 sm:px-8 bg-[#0000009e]">
         <div className="max-w-6xl mx-auto text-center text-white">
           <h1 className="section-title">Roadmap</h1>
           <div className="md:flex pt-14">

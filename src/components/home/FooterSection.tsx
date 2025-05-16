@@ -7,9 +7,14 @@ export default function FooterSection() {
           {/* Overlay for text readability */}
           <div className="flex flex-col justify-center items-center px-4 space-y-6 text-center">
             <img src="/img/logo.png" className="w-[100px]  md:w-[200px]" />
-            <p className="text-white uppercase font-bold  text-xs  md:text-[18px]  lg:text-[20px] text-center flex flex-wrap items-center ">
-              Home <p className="px-2 text-[#CD5F00]" >|</p> Tokenomics <p className="px-2 text-[#CD5F00]" >|</p> Game <p className="px-2 text-[#CD5F00]" >|</p> Roadmap <p className="px-2 text-[#CD5F00]" >|</p> Community <p className="px-2 text-[#CD5F00]" >|</p> Connect Wallet
+            <p className="text-white uppercase font-bold text-xs md:text-[18px] lg:text-[20px] flex flex-wrap items-center justify-center">
+              Home <span className="px-2 text-[#CD5F00]">|</span> Tokenomics{" "}
+              <span className="px-2 text-[#CD5F00]">|</span> Game{" "}
+              <span className="px-2 text-[#CD5F00]">|</span> Roadmap{" "}
+              <span className="px-2 text-[#CD5F00]">|</span> Community{" "}
+              <span className="px-2 text-[#CD5F00]">|</span> Connect Wallet
             </p>
+
             <p className="text-white uppercase font-bold  text-xs  md:text-[18px]  lg:text-[20px] text-center ">
               Terms and Conditions / Privacy Policy
             </p>
