@@ -13,19 +13,24 @@ export default function WhatIsSection() {
       title: "Built to Endure",
     },
   ];
+  const list = [
+    { title: "Tax", value: "10%" },
+    { title: "Rewards", value: "5%" },
+    { title: "Marketing", value: "80%" },
+  ];
 
   return (
-    <div className="section-padding -mt-10 w-full flex flex-col bg-[url('/img/Back_3.jpg')] bg-cover bg-center bg-no-repeat bg-blend-overlay mx-auto items-center ">
+    <div className=" -mt-20 w-full flex flex-col bg-[url('/img/Back_3.png')] bg-cover bg-center bg-no-repeat bg-blend-overlay mx-auto items-center ">
       {/* content */}
-      <div className="container mx-auto ">
+      <div className="container mx-auto section-padding ">
         {/* Overlay for text readability */}
         <div className="flex flex-col justify-center items-center px-4 space-y-6">
           <h1 data-aos="fade-up" className="section-title text-center">
-            What is Mortal Coin?
+            What is <br /> Mortal Coin?
           </h1>
           <p
             data-aos="fade-up"
-            className=" text-sm md:text-lg  xl:text-xl text-white font-semibold md:w-[50%] text-center "
+            className=" text-sm md:text-lg  xl:text-xl text-white font-semibold md:w-[80%] text-center "
           >
             Mortal Coin is a Web3 fighting project built on Solana — where meme
             culture meets deadly competition. Players connect their wallets,
@@ -37,15 +42,15 @@ export default function WhatIsSection() {
           {/* Box */}
           <div
             data-aos="zoom-in-up"
-            className=" mt-5 md:flex overflow-hidden  bg-gradient-to-br  from-[#FFFFFF] from-2% to-90%  to-[#DE88F4] rounded-4xl "
+            className=" bg-[#222428] mt-5 md:flex overflow-hidden  rounded-4xl "
           >
             {/* left */}
             <div className="space-y-4  flex flex-col justify-center px-6 py-2  pt-8 md:pt-0 ">
               {LIST?.map((p, index) => {
                 return (
                   <div className="flex gap-2 text-black font-bold " key={index}>
-                    <img src="/svg/arrow-right.svg" className="w-[24px]" />
-                    <p className="   2xl:text-3xl ">{p?.title}</p>
+                    <img src="/svg/arrow-right-w.svg" className="w-[20px]" />
+                    <p className="  text-white   2xl:text-3xl ">{p?.title}</p>
                   </div>
                 );
               })}
@@ -56,6 +61,82 @@ export default function WhatIsSection() {
             </div>
           </div>
         </div>
+      </div>
+
+      {/*  */}
+      {/* Content */}
+      <div className="section-padding">
+        <div className="container mx-auto justify-center space-y-7 ">
+          {/* Tokenomics Info */}
+          <div
+            data-aos="fade-up-left"
+            className=" flex flex-col px-6 space-y-5 lg:space-y-6 w-full justify-center items-center  "
+          >
+            <h1 className="section-title">Tokenomics</h1>
+            {/*  */}
+            <div
+              data-aos="fade-up-right"
+              className="flex justify-center  lg:w-[45%] xl:w-[50%]"
+            >
+              <img
+                src="/img/coin-logo-2.png"
+                className="h-[200px]  md:h-[20%] lg:h-[80%] xl:h-[20%] object-contain"
+                alt="Coin Logo"
+              />
+            </div>
+
+            {/* list */}
+            <div className="flex flex-wrap gap-4 md:gap-7 justify-center">
+              {list.map((item, index) => (
+                <div
+                  key={index}
+                  className="text-center flex flex-col justify-center items-center"
+                >
+                  <p className="font-semibold  text-[#C85D00] text-xl  md:text-2xl   lg:text-3xl">
+                    {item.value}
+                  </p>
+                  <p className="font-semibold  text-[#C85D00]  md:text-xl  lg:text-2xl">
+                    {item.title}
+                  </p>
+                </div>
+              ))}
+            </div>
+            {/* text */}
+            <p className="text-[#C85D00] lg:w-[40%] text-center text-base  md:text-xl ">
+              Each battle burns tokens. 80% of the entry fee goes to the winner.
+              20% is burned forever.
+            </p>
+          </div>
+        </div>
+        {/* Additional Button Section (Optional) */}
+        <div
+          data-aos="fade-up"
+          className="space-y-4 md:flex justify-center gap-6 mt-10 "
+        >
+          <img src="/img/icons.png" className="w-[30%]" />
+        </div>
+        {/* <div
+          data-aos="fade-up"
+          className="space-y-4 md:flex justify-center gap-6 mt-10 "
+        >
+          
+          <div className="company-box">
+            <img src="/img/c1.png" className="company-box-img" />
+          </div>
+        
+          <div className="company-box">
+            <img src="/img/c2.png" className="company-box-img" />
+          </div>
+       
+          <div
+            className=" company-box "
+            style={{
+              backgroundColor: "rgba(31, 31, 31, 1)",
+            }}
+          >
+            <img src="/img/c3.png" className="company-box-img" />
+          </div>
+        </div> */}
       </div>
     </div>
   );

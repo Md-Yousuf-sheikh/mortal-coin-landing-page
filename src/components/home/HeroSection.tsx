@@ -2,7 +2,7 @@ import Header from "../shared/header";
 
 export default function HeroSection() {
   return (
-    <div className="w-full flex flex-col bg-[url('/img/Back_1.jpg')] bg-cover bg-center bg-no-repeat bg-blend-overlay mx-auto items-center bg-[rgba(0,0,0,0.42)]">
+    <div className="w-full flex flex-col bg-[url('/img/Back_1.png')] bg-cover bg-center bg-no-repeat bg-blend-overlay mx-auto items-center bg-[rgba(0,0,0,0.42)]">
       <Header />
 
       {/* content */}

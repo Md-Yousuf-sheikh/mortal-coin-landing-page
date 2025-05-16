@@ -17,7 +17,7 @@ function App() {
         <HeroSection />
         <AboutSection />
         <WhatIsSection />
-        <TokenomicsSection />
+        {/* <TokenomicsSection /> */}
         <MortalGameSection />
         <RoadmapSection />
         <JoinTheMortalArmySection />
