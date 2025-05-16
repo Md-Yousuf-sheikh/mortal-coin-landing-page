@@ -20,7 +20,7 @@ export default function WhatIsSection() {
   ];
 
   return (
-    <div className=" -mt-20 w-full flex flex-col bg-[url('/img/Back_3.png')] bg-cover bg-center bg-no-repeat bg-blend-overlay mx-auto items-center ">
+    <div className=" -mt-20 pb-20 w-full flex flex-col bg-[url('/img/Back_3.png')] bg-cover bg-center bg-no-repeat bg-blend-overlay mx-auto items-center ">
       {/* content */}
       <div className="container mx-auto section-padding ">
         {/* Overlay for text readability */}
@@ -108,25 +108,17 @@ export default function WhatIsSection() {
             </p>
           </div>
         </div>
-        {/* Additional Button Section (Optional) */}
-        {/* <div
-          data-aos="fade-up"
-          className="space-y-4 flex justify-center gap-6 mt-10 "
-        >
-          <img src="/img/icons.png" className=" w-[90%]  md:w-[50%]   xl:w-[30%]" />
-        </div> */}
+
         <div
           data-aos="fade-up"
-          className="space-y-5 space-x-2 md:flex justify-center gap-6 mt-10 "
+          className="flex flex-col items-center space-y-4 md:flex-row md:space-y-0 md:justify-center md:gap-6 mt-10"
         >
           <div>
             <img src="/img/c1.png" className="company-box-img" />
           </div>
-
           <div>
             <img src="/img/c2.png" className="company-box-img" />
           </div>
-
           <div>
             <img src="/img/c3.png" className="company-box-img" />
           </div>

@@ -1,6 +1,6 @@
 export default function JoinTheMortalArmySection() {
   return (
-    <div className="bg-[url('/img/back_enter-the-mortal.png')] bg-cover bg-center bg-no-repeat bg-blend-overlay">
+    <div className="  bg-[url('/img/back_enter-the-mortal.png')] bg-cover bg-center bg-no-repeat bg-blend-overlay">
       {/* content */}
       <div className="container mx-auto ">
         {/* Overlay for text readability */}

@@ -74,7 +74,7 @@ h1 {
   @apply px-4 flex bg-white rounded-2xl w-[230px]  h-[80px]  md:h-[100px]  justify-center items-center  
 }
 .company-box-img {
-  @apply  h-[40px] md:h-[50px]  lg:h-[80px]  
+  @apply  h-[60px]  md:h-[50px]  lg:h-[80px]  
 }
 
 /* .hero-buttons{
