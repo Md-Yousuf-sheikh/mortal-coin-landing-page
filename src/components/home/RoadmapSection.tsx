@@ -58,60 +58,53 @@ export default function RoadmapSection() {
             </div>
 
             <div className="w-full lg:w-[55%] xl:w-[50%]">
-              <ol data-aos="fade-up">
-                {roadmapPhases.map((phaseData, index) => {
-                  return (
-                    <li
-                      key={index}
-                      className={`border-l-1 border-[#2975f1ff] ${
-                        index === 0 ? "mt-10" : "pt-0"
-                      } `}
-                    >
-                      <div className="md:flex flex-start ">
-                        <div
-                          className={`${
-                            index === 0 ? "mt-0" : "mt-12"
-                          } bg-[#2975f1ff] w-6 h-6 flex items-center justify-center rounded-full -ml-3.5`}
-                        >
-                          <ChevronRight color="black" size={15} />
+              <div className=" mx-auto relative">
+                {/* Full vertical line behind dots */}
+                <div className="absolute left-3.5 top-[10%] bottom-[10%] w-px bg-[#2975f1] " />
+                <ol className="relative space-y-14">
+                  {roadmapPhases.map((phase, index) => {
+        
+                    return (
+                      <li
+                        key={index}
+                        className="relative flex items-center pl-12"
+                      >
+                        {/* Dot + vertical segment inside it */}
+                        <div className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10">
+                          <div className="relative">
+                            <div className="w-7 h-7 rounded-full bg-[#2975f1] flex items-center justify-center">
+                              <ChevronRight size={16} color="#000" />
+                            </div>
+                          </div>
                         </div>
 
-                        {/* info content */}
-                        <div
-                          className={`${
-                            index === 0 ? "-mt-10" : "pt-10"
-                          } block p-3 lg:p-6 rounded-lg shadow-lg bg-[#222428ff] max-w-md ml-5 lg:ml-6 md:mb-10 text-left`}
-                        >
-                          <div className="w-full">
-                            <p className="font-medium text-white text-sm md:text-md lg:text-lg uppercase">
-                              {phaseData.phase}
-                            </p>
-                            <h1 className="timeline-title">
-                              {phaseData.title}
-                            </h1>
-                          </div>
-
-                          <ul className="-space-y-3">
-                            {phaseData.items.map((item, idx) => (
+                        {/* Card */}
+                        <div className="bg-[#1b1c1e] text-white p-6 rounded-lg w-full max-w-xl shadow-lg text-left">
+                          <p className="text-xs text-white uppercase tracking-wide">
+                            {phase.phase}
+                          </p>
+                          <h3 className="text-xl font-bold text-[#2975f1] mb-2">
+                            {phase.title}
+                          </h3>
+                          <ul className="space-y-1">
+                            {phase.items.map((item, idx) => (
                               <li
                                 key={idx}
-                                className="flex space-x-1 items-center"
+                                className="flex items-start space-x-2 text-sm leading-snug"
                               >
-                                <p className="text-[40px] -mt-1 text-[#2975F1]">
+                                <span className="text-[#2975f1] text-lg leading-5">
                                   &#x2022;
-                                </p>
-                                <p className="text-sm md:text-base xl:text-[20px]">
-                                  {item}
-                                </p>
+                                </span>
+                                <span>{item}</span>
                               </li>
                             ))}
                           </ul>
                         </div>
-                      </div>
-                    </li>
-                  );
-                })}
-              </ol>
+                      </li>
+                    );
+                  })}
+                </ol>
+              </div>
             </div>
           </div>
         </div>
